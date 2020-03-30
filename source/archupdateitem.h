@@ -12,7 +12,7 @@ public:
     explicit ArchUpdateItem(const ArchUpdateData* data, QWidget *parent=nullptr);
 
 protected:
-    QSize sizeHint() const {return QSize(26, 26); }
+    QSize sizeHint() const {return QSize(42, 32); }
     void resizeEvent(QResizeEvent *e){
         QWidget::resizeEvent(e);
         refreshIcon();
